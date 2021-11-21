@@ -33,7 +33,7 @@ function mapResponse() {
 
             // 設定圖資來源
 
-            var osmUrl = 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png';
+            var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
             var osm = new L.TileLayer(
                 osmUrl,
                 {
