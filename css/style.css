@@ -1,0 +1,111 @@
+body {
+  font-family: "Noto Sans TC";
+}
+
+body .bike-navbar {
+  background-color: #00c2ba;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+body .bike-navbar .bike-toggler {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+body .bike-navbar .bike-collapse .bike-nav {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .bike-navbar .bike-collapse .bike-nav .bike-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  body .bike-navbar .bike-collapse .bike-nav .bike-flex {
+    display: block;
+  }
+}
+
+body .bike-navbar .bike-collapse .bike-nav .bike-flex .bike-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+body .bike-container {
+  position: relative;
+}
+
+body .bike-container .bike-map {
+  width: 100%;
+  height: calc(98vh - 40px);
+}
+
+body .bike-container .bike-destination {
+  position: absolute;
+  width: 360px;
+  height: 350px;
+  left: 22px;
+  top: 116px;
+  background: #fbffff;
+  -webkit-box-shadow: 0px 4px 20px rgba(62, 62, 62, 0.1);
+          box-shadow: 0px 4px 20px rgba(62, 62, 62, 0.1);
+  border-radius: 2px;
+  z-index: 1000;
+}
+
+body .bike-container .bike-destination .title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+body .bike-container .bike-destination .text {
+  display: block;
+  width: 325px;
+  height: 60px;
+  background: rgba(82, 164, 223, 0.19);
+  border-radius: 2px;
+  margin: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+body .bike-container .bike-destination .text:focus {
+  outline: none;
+}
+
+body .bike-container .bike-destination .submit {
+  display: block;
+  width: 130px;
+  height: 40px;
+  background: #00c2ba;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-left: 210px;
+}
+
+body input {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
